@@ -2,24 +2,24 @@
 language: node_js
 
 node_js:
- -"0.10"
+ - "0.10.28"
 
 branches:
  only:
-  -master
+  - master
 
 before_install:
- -npm install -g hexo
+ - npm install -g hexo
 
 install:
- -npm install
+ - npm install
 
 before_script:
- -git config --global user.name 'Alexander Obi'
- -git config --global user.email 'alexebube@gmail.com'
+ - git config --global user.name 'Alexander Obi'
+ - git config --global user.email 'alexebube@gmail.com'
 
 script:
- -hexo generate
+ - hexo generate
 
 deploy:
  provider: s3
