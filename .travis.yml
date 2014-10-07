@@ -27,4 +27,4 @@ deploy:
  secret_access_key: "ErxGEYHGrPsMCub+kbRItXBneyDNNQUyK+nFODtR"
  bucket: "S3 Bucket"
  skip_cleanup: true
- local-dir: public
+ local-dir: public 
