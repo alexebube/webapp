@@ -25,7 +25,7 @@ deploy:
  provider: s3
  access_key_id: "AKIAJI2E4OJNJ5V5DGJQ"
  secret_access_key: "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"
- bucket: "S3 Bucket"
+ bucket: "hexowebapp"
  skip_cleanup: true
  local-dir: public
  on:
