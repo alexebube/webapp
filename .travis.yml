@@ -28,5 +28,3 @@ deploy:
  bucket: "S3 Bucket"
  skip_cleanup: true
  local-dir: public
- on:
-  tags: true
