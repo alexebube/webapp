@@ -14,10 +14,6 @@ before_install:
 install:
  - npm install
 
-before_script:
- - git config --global user.name 'Alexander Obi'
- - git config --global user.email 'alexebube@gmail.com'
-
 script:
  - hexo generate
 
