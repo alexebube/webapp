@@ -5,4 +5,4 @@ tags:
 
 ###This is my first Post!!
 
-Added release *tag*
+Added release tag
