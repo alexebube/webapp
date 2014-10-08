@@ -18,11 +18,12 @@ script:
  - hexo generate
 
 deploy:
- provider: s3
- access_key_id: "AKIAJI2E4OJNJ5V5DGJQ"
- secret_access_key: "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"
- bucket: "hexowebapp"
- skip_cleanup: true
- local-dir: public
- on:
-  branch: master
+  provider: s3
+  access_key_id: AKIAJEP7RC4MIOMM7HUQ
+  secret_access_key:
+    secure: NrDoQC+ZoaSth5g3qExjg+A6DOf5V2wH9hPCFtUm2ExYOLGG/7uAOvAsi3LjejwbADDVBn3oQY8OU/ulRsq0yj3AVtMbFcHkzoV1Zcuwx6xO1fhf/Q27LA4oZE0P9uGWWQRr3Yg2eRJHC5qlzaCYqvF3oNEiAoAX8riaD/NvDwg=
+  bucket: "hexowebapp"
+  skip_cleanup: true
+  local-dir: public
+  on:
+   branch: master
